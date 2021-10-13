@@ -32,16 +32,16 @@ CONSTRAINT FK_Usuario_id FOREIGN KEY (Usuario_id) REFERENCES Usuario(id)
 
 
 INSERT INTO Notas
-VALUES (default, "que"," que paso ayer", "2020/02/03"," 2020/02/03", 2),
- (default, "homero","capitulo que dice a la grande le puse cuca", "2020/02/03"," 2020/02/03",4),
- (default, "Vegeta","you power is over 9000", "2020/02/03"," 2020/02/03",5),
- (default, "Casablanca","casa blanca es una ciudad de marruecos o una casa pintada de blanca", "2020/02/03"," 2020/02/03", 3),
- (default, "pedrito","predrito clavo un clavito que dedo se martillo pedrito", "2020/02/03"," 2020/02/03", 2),
- (default, "llueve","para que carajo queres que llueva?, es quiero ver gotas", "2020/02/03"," 2020/02/03", 4),
- (default, "kenny","oh!! por dios mataron a kenny,-hijos de frula-", "2020/02/03"," 2020/02/03",6),
- (default, "john","where is john connor", "2020/02/03"," 2020/02/03",8),
- (default, "wick","que? ese don nadie, - ese maldito don nadie es Jhon Wick -", "2020/02/03","2020/02/03", 7),
- (default, "tadidor","un traidor como tu no merece usar ese uniforme (hoffman hablando con Marcus Fénix )", "2020/02/03"," 2020/02/03",9);
+VALUES (default, "que"," que paso ayer", "2020/01/05"," 2020/02/03", 2),
+ (default, "homero","capitulo que dice a la grande le puse cuca", "2020/01/03"," 2020/03/03",4),
+ (default, "Vegeta","you power is over 9000", "2020/04/09"," 2020/04/09",5),
+ (default, "Casablanca","casa blanca es una ciudad de marruecos o una casa pintada de blanca", "2020/05/03"," 2020/06/06", 3),
+ (default, "pedrito","predrito clavo un clavito que dedo se martillo pedrito", "2020/02/03"," 2020/02/07", 2),
+ (default, "llueve","para que carajo queres que llueva?, es quiero ver gotas", "2020/09/03"," 2020/09/09", 4),
+ (default, "kenny","oh!! por dios mataron a kenny,-hijos de frula-", "2020/02/03"," 2020/02/04",6),
+ (default, "john","where is john connor", "2020/02/03"," 2020/02/07",8),
+ (default, "wick","que? ese don nadie, - ese maldito don nadie es Jhon Wick -", "2020/04/03","2020/05/03", 7),
+ (default, "tadidor","un traidor como tu no merece usar ese uniforme (hoffman hablando con Marcus Fénix )", "2020/03/03"," 2020/05/04",9);
 
 
 CREATE TABLE Notas_Categorias (
